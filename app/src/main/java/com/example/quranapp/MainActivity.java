@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         listView=findViewById(R.id.list1);
-        surahName=new Names();
+        surahName=new Names();//o
                button=findViewById(R.id.button);
                editText=findViewById(R.id.editText);
         ArrayAdapter<String> arrayAdapter=new ArrayAdapter<>(this,android.R.layout.simple_list_item_1,surahName.ParahName);

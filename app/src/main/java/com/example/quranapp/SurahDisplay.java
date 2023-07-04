@@ -23,7 +23,7 @@ public class SurahDisplay extends AppCompatActivity {
          int i=Integer.parseInt(s);
         listView=findViewById(R.id.ayatList);
         name=new Names();
-        ayat=new Ayat();
+        ayat=new Ayat();//x
         int start= name.SSP[i];
         int end=name.SSP[i]-1;
         ArrayAdapter<String> arrayAdapter=new ArrayAdapter<>(this,android.R.layout.simple_list_item_1, Arrays.copyOfRange(ayat.QuranArabicText,start,end));
