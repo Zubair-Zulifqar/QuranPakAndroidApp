@@ -1,0 +1,20 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+<<<<<<< HEAD
+rootProject.name = "QuranApp"
+=======
+rootProject.name = "QuranApp_Assignment_2_bsef20a504_ZubairZulifqar"
+>>>>>>> 6c06825d69a7c1b9b3ac2b6583742df19151e841
+include ':app'
